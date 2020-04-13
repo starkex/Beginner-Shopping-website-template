@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="fire.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <style>
+   *{
+   margin: 0;
+   padding: 0;
+ }
+  body{
+    background: black;
+  }
+.cart{
+width:1000px;
+height:600px;
+border:solid white;
+position: relative;
+top:100px;
+right:-80px;
+}
+.text{
+  color:white;
+  font-size:25px;
+  position: relative;
+  padding: 10px;
+  top:-305px;
+  left:280px
+}
+.heading{
+  margin-bottom:20px;
+}
+.rating{
+  margin-top: 20px;
+}
+.pressd{
+ position: relative;
+ padding: 6px;
+ width: 250px;
+ height:60px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 23px;
+ background: white;
+ border: solid black;
+ cursor: pointer;
+ transition: 0.5s;
+ margin-top: 20px;
+}
+.pressd2{
+ position: relative;
+ right:255px;
+ top:80px;
+ padding: 6px;
+ width: 250px;
+ height:60px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 23px;
+ background: white;
+ border: solid black;
+ cursor: pointer;
+ transition: 0.5s;
+ margin-top: 20px;
+}
+button[type="button"]:hover{
+  transition: 0.8s;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border:solid white;
+}
+.cli{
+  width:240px;
+  height: 280px;
+  padding:30px 30px 40px 30px;
+}
+.text{
+  margin-top: -30px;
+}
+.hl{
+  color: black;
+  padding: 0 20px 31px 31px;
+  position: relative;
+  top:-200px;
+}
+.imk{
+  height: 220px;
+  margin-left:350px;
+  cursor: pointer;
+}
+.diam{
+  margin-bottom: 0;
+  position: relative;
+  top:210px;
+}
+ </style>
+ <script>
+   function msg(){
+     alert("Your item have successfully stored in your Wishlist. Please continue shopping with Fossil");
+     window.location.href = "index.html";
+   }
+   function paid(){
+     alert("Thanks for Purchasing this item it willbe delivered to your doorstep shortly.\n Please continue shopping with Fossil");
+     window.location.href = "watches.html";
+        }
+ </script>
+  </head>
+  <body>
+
+    <section class="cart">
+            <!-- New watch-->
+               <img src="watch-8.jfif" class="cli">
+               <div class="text">
+                    <p class="heading">Gen 5 Smartwatch Julianna HR Rose Gold-Tone Stainless Steel</p>
+                   <p>Price: $350</p>
+                   <div class="rating">
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star unchecked"></span>
+                     <span class="fa fa-star unchecked"> 3.0</span>
+                  </div>
+                  <div class="botton">
+                    <button type="button" name="b1" class="pressd"><a href="#" class="but" onclick="msg()">Add To Wishlist</a></button>
+                     <button type="button" name="b1" class="pressd2"><a href="#" class="but" onclick="paid()">Checkout</a></button>
+                  </div>
+               </div>
+               <div class="hl">
+                  <hr>
+                  <div class="img">
+                    <img src="fossil.jpg" class="imk">
+                  </div>
+                  </div>
+             <!--watch ends-->
+    </section>
+
+<div class="diam">
+  <center>
+        <img src="diamond.jpg" style="width:100px; height:100px;">
+  </center>
+  <div class="foot">
+          Copyright <i class="fa-copyright" aria-hidden="true"></i>Stark All Rights Reserved.
+  </div>
+</div>
+
+  </body>
+</html>

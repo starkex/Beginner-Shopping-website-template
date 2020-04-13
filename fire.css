@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+section {
+  position: relative;
+  width: 1151px;
+  margin-left: 380px;
+  position: absolute;
+top:7%;
+
+
+}
+nav {
+  width: 100%;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  width: 288px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px 0 10px 0;
+  margin: -1px -5px -1px -1px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+
+}
+.active{
+  font-family: Helvetica;
+  color: #fff;
+  padding: 10px 0 10px 0;
+  margin: -1px -5px -1px -1px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+
+}
+nav ul li:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border: solid white;
+  border-radius: 20px;
+}
+nav ul {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  position: absolute;
+  width: 1150px;
+  padding: 0;
+  z-index: 100;
+}
+nav div {
+  position: absolute;
+  left: 0;
+  top: 16px;
+
+  width: 192px;
+  height: 40px;
+  z-index: 99;
+}
+
+}
+.ops{
+  vertical-align: top;
+}
+
+.shit{
+  padding: 35px 100px 35px;
+  background:rgba(96,96,96,0);
+  color: white;
+  transition: 0.5s;
+  font-family: serif;
+  font-size: 26px;
+  position: absolute;
+  left:43%;
+  top: 50%;
+  border: solid white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sho{
+  padding: 35px 104px 35px;
+  background:rgba(96,96,96,0);
+  color: white;
+  transition: 0.3s;
+  font-family: serif;
+  font-size: 26px;
+  position: absolute;
+  left:43%;
+  top: 170%;
+  border: solid white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.shit:hover,.sho:hover{
+  transition: 0.5s;
+  background: rgba(96, 96, 96,0.6);
+  border: none;
+
+}
+
+/* Watches.html*/
+
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  overflow-x: hidden;
+}
+.yo{
+  width: 100%;
+  height:500px;
+  position: relative;
+  float: left;
+  right:85px;
+  top:300px;
+  margin-bottom: 140px;
+
+}
+.yo2{
+  width: 100%;
+  height:500px;
+  position: relative;
+  float: left;
+  right:85px;
+  top:300px;
+  margin-bottom: 600px;
+}
+.foot{
+  background: grey;
+  float: left;
+  width:100%;
+  padding: 15px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.container{
+  display:block;
+}
+.white{
+  width: 300px;
+  height:500px;
+  border:solid white;
+  position: relative;
+  float: left;
+  margin-right: 31px;
+}
+.cl{
+  width:240px;
+  height: 250px;
+  padding:30px 30px 40px 30px;
+}
+.checked {
+ color: orange;
+     }
+
+     .unchecked{
+       color: grey;
+      font-size:12px;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+
+     .ratings{
+        padding: 0 20px 31px 31px;
+       margin:-15px 0 0 0;
+     }
+     .price{
+       color: black;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: 20px;
+       padding: 0 20px 31px 33px;
+      margin:-15px 0 0 0;
+     }
+     .press{
+      position: relative;
+      left:65px;
+      padding: 10px;
+      width: 170px;
+      height:50px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 23px;
+      background: white;
+      border: solid black;
+      cursor: pointer;
+      transition: 0.5s;
+     }
+
+.but{
+  text-decoration: none;
+  color:black;
+}
+.press > a.but:hover{
+  color: white;
+}
+     .name{
+       color: black;
+       font-family: Arial, Helvetica, sans-serif; font-size: 14px;
+       padding: 0 20px 31px 31px;
+       margin:-25px 0 0 0;
+       transition: 0.8s;
+     }
+     hr{
+       margin-bottom: 10px;
+     }
+     .white{
+       color:white;
+       background: white;
+       transition: 0.8s;
+     }
+     button[type="button"]:hover{
+       transition: 0.8s;
+       background: black;
+       color: white;
+       text-decoration: none;
+     }
+      button[type="button"]:hover .but{
+        color:white;
+      }
+     .motto{
+
+       color: white;
+       position: relative;
+       top:30px;
+       left:150px;
+       width:1120px;
+       height:70px;
+       font-family: Lucida calligraphy;
+       padding-top:40px;
+       font-size:30px;
+       padding-left: 463px;
+       border-bottom: solid white;
+       border-radius: 40px;
+     }
+     .best{
+       width:400px;
+       height:100px;
+       background: black;
+       border:solid white;
+       position: relative;
+       top:110px;
+       left:142px;
+     }
+     .box{
+       width:116px;
+       height: 150px;
+       background: black;
+       position: relative;
+
+          top:-28px;
+          left:142px;
+     }
+     .pr{
+       padding-top: 68px;
+     }
+     .collect{
+       color:white;
+       position: relative;
+       top:150px;
+       left:850px;
+       font-size: 27px;
+     }
+      
